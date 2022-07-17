@@ -13,3 +13,4 @@
 * Project9：impl sm2 with RFC6979<br>
 * Project10：impl PGP scheme with sm2<br>
 * Project11: impl ECMH scheme
+* Project12：deduce public key
