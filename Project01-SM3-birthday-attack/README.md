@@ -18,5 +18,5 @@
 ![img.png](img.png)
 * sm3_Birthday_Attack_mysm3.py
 
-![img_1.png](img_1.png)
+![image](https://user-images.githubusercontent.com/104118101/181449204-981c87a8-bbb3-42c8-bb80-a5fc22f48da4.png)
 
