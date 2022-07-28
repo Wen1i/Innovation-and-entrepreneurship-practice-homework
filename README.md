@@ -3,7 +3,7 @@
 ### SM3
 * Project1: implement the naïve birthday attack of reduced SM3<br>
 * Project2: implement the Rho method of reduced SM3<br>
-* Project3: implement length extension attack for SM3, SHA256, etc<br>
+* Project3: implement length extension attack for SM3, SHA256, md5<br>
 * Project4: Impl Merkle Tree following RFC6962<br>
 * Project5: do your best to optimize SM3 implementation (software)<br>
 
