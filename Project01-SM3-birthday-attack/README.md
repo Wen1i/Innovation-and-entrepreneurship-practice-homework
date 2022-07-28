@@ -15,7 +15,7 @@
 均实现了32bit的生日攻击
 * sm3_Birthday_Attack_gmssl.py
 
-![img.png](img.png)
+![img](https://user-images.githubusercontent.com/104118101/181449582-2257b895-1cc9-4261-aade-e5c20e474d0f.png)
 * sm3_Birthday_Attack_mysm3.py
 
 ![image](https://user-images.githubusercontent.com/104118101/181449204-981c87a8-bbb3-42c8-bb80-a5fc22f48da4.png)
