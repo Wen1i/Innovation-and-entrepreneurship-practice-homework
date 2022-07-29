@@ -26,4 +26,7 @@ def remove(ecmh, msg):
     tmp = EC_sub(ecmh, dot)
     return tmp
 ~~~
-
+## 运行指导
+运行文件ECMH.py
+## 运行结果
+![image](https://user-images.githubusercontent.com/104118101/181779229-1b6431e6-7866-4628-ac45-415fa8d1b309.png)
