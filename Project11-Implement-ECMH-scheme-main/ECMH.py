@@ -121,8 +121,8 @@ if __name__=="__main__":
     m2 = "202000460010"
 
     print('single(m1)', single(m1))
-    print('single:\n', single(m2))
-    print('combine([m1, m2]\n', combine([m1, m2]))
-    print('combine([m2, m1]\n', combine([m2, m1]))
-    print('ADD(single(m1), m2))\n', ADD(single(m1), m2))
-    print('remove(combine([m1, m2]), m2\n', remove(combine([m1, m2]), m2))
+    print('single', single(m2))
+    print('combine([m1, m2]', combine([m1, m2]))
+    print('combine([m2, m1]', combine([m2, m1]))
+    print('ADD(single(m1), m2))', ADD(single(m1), m2))
+    print('remove(combine([m1, m2]), m2)', remove(combine([m1, m2]), m2))
