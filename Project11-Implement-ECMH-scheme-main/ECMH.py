@@ -120,9 +120,9 @@ if __name__=="__main__":
     m1 = "wwl"
     m2 = "202000460010"
 
-    print('single(m1)', single(m1))
-    print('single', single(m2))
-    print('combine([m1, m2]', combine([m1, m2]))
-    print('combine([m2, m1]', combine([m2, m1]))
+    print('single(m1)\t\t\t', single(m1))
+    print('single(m2)\t\t\t', single(m2))
+    print('combine([m1, m2]\t', combine([m1, m2]))
+    print('combine([m2, m1]\t', combine([m2, m1]))
     print('ADD(single(m1), m2))', ADD(single(m1), m2))
     print('remove(combine([m1, m2]), m2)', remove(combine([m1, m2]), m2))
