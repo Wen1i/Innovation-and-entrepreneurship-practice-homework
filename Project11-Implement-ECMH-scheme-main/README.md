@@ -29,4 +29,4 @@ def remove(ecmh, msg):
 ## 运行指导
 运行文件ECMH.py
 ## 运行结果
-![image](https://user-images.githubusercontent.com/104118101/181779229-1b6431e6-7866-4628-ac45-415fa8d1b309.png)
+![image](https://user-images.githubusercontent.com/104118101/181779760-34aad41d-50b8-468b-8dd0-5f485597123f.png)
