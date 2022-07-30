@@ -13,6 +13,8 @@
 1.用sk_r解密encryptKey得到SK<br>
 2.验证签名<br>
 3.用sk解密得到data<ne>
+# 运行指导
+运行文件PGP.py
 # 运行结果
 ![image](https://user-images.githubusercontent.com/104118101/179347612-a1270499-4628-41c5-98df-de09a7a357c9.png)
 
