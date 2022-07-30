@@ -1,0 +1,1614 @@
+Microchip Technology Inc, v2.00 (B)
+
+Tool Name:
+  d:\mplab ide\xc16\bin\bin\..\bin/elf-ld.exe
+
+Command:
+  -p24F16KA102 \
+  --mdfp=D:/MPLAB IDE/packs/Microchip/PIC24F-KA-KL-KM_DFP/1.4.83/xc16 \
+  -o \
+  dist/default/production/Access_Point.X.production.elf \
+  -Ld:/mplab ide/xc16/bin/bin/.. \
+  -LD:/MPLAB IDE/packs/Microchip/PIC24F-KA-KL-KM_DFP/1.4.83/xc16/bin/../support/PIC24F/gld \
+  -Ld:/mplab ide/xc16/bin/bin/../../lib \
+  -Ld:/mplab ide/xc16/bin/bin/../../support/PIC24E/gld \
+  -Ld:/mplab ide/xc16/bin/bin/../../support/PIC24F/gld \
+  -Ld:/mplab ide/xc16/bin/bin/../../support/PIC24H/gld \
+  -Ld:/mplab ide/xc16/bin/bin/../../support/dsPIC30F/gld \
+  -Ld:/mplab ide/xc16/bin/bin/../../support/dsPIC33C/gld \
+  -Ld:/mplab ide/xc16/bin/bin/../../support/dsPIC33E/gld \
+  -Ld:/mplab ide/xc16/bin/bin/../../support/dsPIC33F/gld \
+  build/default/production/_ext/1472/HardwareProfile.o \
+  build/default/production/_ext/1472/AccessPoint.o \
+  build/default/production/_ext/1860783399/Console.o \
+  build/default/production/_ext/1860783399/MSPI.o \
+  build/default/production/_ext/1860783399/TimeDelay.o \
+  build/default/production/_ext/35256690/MiWi.o \
+  build/default/production/_ext/1109514802/P2P.o \
+  build/default/production/_ext/1466186449/LCDBlocking.o \
+  build/default/production/_ext/1466186449/NVM.o \
+  build/default/production/_ext/1466186449/SymbolTime.o \
+  build/default/production/_ext/1127682237/crc.o \
+  build/default/production/_ext/1127682237/security.o \
+  build/default/production/_ext/1061806389/MRF24J40.o \
+  build/default/production/_ext/1696884637/MRF49XA.o \
+  build/default/production/_ext/1697003801/MRF89XA.o \
+  --defsym=__MPLAB_BUILD=1 \
+  -Tp24F16KA102.gld.00 \
+  --stack=16 \
+  --check-sections \
+  --data-init \
+  --pack-data \
+  --handles \
+  --isr \
+  --no-gc-sections \
+  --fill-upper=0 \
+  --stackguard=16 \
+  --library-path=.. \
+  --library-path=. \
+  --no-force-link \
+  --smart-io \
+  -Map=dist/default/production/Access Point.X.Access_Point.X.production.map \
+  --memorysummary \
+  dist/default/production/memoryfile.xml \
+  -start-group \
+  --library=c99-pic30-elf \
+  --library=m-elf \
+  --library=c99-elf \
+  -end-group \
+
+
+Optional library libpPIC24Fxxx.a not found
+Archive member included because of file (symbol)
+
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(crt0_standard.o)
+                              (__resetPRI)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(data_init_standard.o)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(crt0_standard.o) (__data_init_standard)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(crt_start_mode_normal.Meo)
+                              (__crt_start_mode_normal)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsi3.XX_o)
+                              build/default/production/_ext/1472/AccessPoint.o (___divsi3)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(fixunssfsi.XX_o)
+                              build/default/production/_ext/1472/AccessPoint.o (___fixunssfsi)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o)
+                              build/default/production/_ext/1472/AccessPoint.o (___floatunsisf)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(funpack.XX_o)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(fixunssfsi.XX_o) (__funpack)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(modsi3.XX_o)
+                              build/default/production/_ext/1472/AccessPoint.o (___modsi3)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.XX_o)
+                              build/default/production/_ext/1472/AccessPoint.o (___udivsi3)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(umodsi3.XX_o)
+                              build/default/production/_ext/1472/AccessPoint.o (___umodsi3)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(addsf3x.XX_o)
+                              build/default/production/_ext/1472/AccessPoint.o (___subsf3)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o)
+                              build/default/production/_ext/1472/AccessPoint.o (___divsf3)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o)
+                              build/default/production/_ext/1472/AccessPoint.o (___mulsf3)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(dnrmpackfx.XX_o)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(addsf3x.XX_o) (__dnrmpackf)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(unpackdnrmfx.XX_o)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o) (__unpackdnrmf)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(typefx.XX_o)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(addsf3x.XX_o) (__typef)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(propnanfx.XX_o)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(addsf3x.XX_o) (__propnanf)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(spackfx.XX_o)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o) (__spackf)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(unpackfx.XX_o)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o) (__unpackf)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(errno.XX_o)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o) (_errno)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o) (___floatundisf)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(fpack.XX_o)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o) (__fpack)
+d:/mplab ide/xc16/bin/bin/../../lib\libm-elf.a(logf.XX_o)
+                              build/default/production/_ext/1472/AccessPoint.o (_logf)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-elf.a(lite_malloc.XX_o)
+                              build/default/production/_ext/1109514802/P2P.o (_malloc)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-elf.a(expand_heap.XX_o)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libc99-elf.a(lite_malloc.XX_o) (___expand_heap)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-elf.a(__errno_location.XX_o)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libm-elf.a(logf.XX_o) (___errno_val)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libm-elf.a(logf.XX_o) (___floatsisf)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.XX_o)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o) (___floatdisf)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(sbrk.Meo)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libc99-elf.a(expand_heap.XX_o) (_sbrk)
+d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(brk.Meo)
+                              d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(sbrk.Meo) (_brk)
+
+
+xc16-ld 2.00 (B)
+
+Default Code Model: Small
+Default Data Model: Small
+Default Scalar Model: Small
+
+"program" Memory  [Origin = 0x200, Length = 0x2a00]
+
+section                    address   length (PC units)   length (bytes) (dec)
+-------                    -------   -----------------   --------------------
+.text                        0x200               0xc14          0x121e  (4638)
+.const                       0xe14               0x342           0x4e3  (1251)
+.text                       0x1156              0x1616          0x2121  (8481)
+.dinit                      0x276c                0x4e            0x75  (117)
+.text                       0x27ba                0x2e            0x45  (69)
+
+                 Total "program" memory used (bytes):         0x38dc  (14556) 90%
+
+
+"data" Memory  [Origin = 0x800, Length = 0x600]
+
+section                    address      alignment gaps    total length  (dec)
+-------                    -------      --------------    -------------------
+.nbss                        0x800                   0           0x158  (344)
+.ndata                       0x958                   0             0xc  (12)
+.nbss                        0x964                   0             0x4  (4)
+.bss                         0x968                   0             0x8  (8)
+
+                 Total "data" memory used (bytes):          0x170  (368) 23%
+
+
+Dynamic Memory Usage
+
+region                     address                      maximum length  (dec)
+------                     -------                      ---------------------
+heap                             0                                   0  (0)
+stack                        0x970                               0x490  (1168)
+
+                 Maximum dynamic memory (bytes):          0x490  (1168)
+
+Info: Project is using a large data memory model when small data memory model is sufficient.
+
+
+External Symbols in Data Memory (by address):
+
+                    0x0800                  _currentChannel
+                    0x0801                  _ConnMode
+                    0x0802                  _MACRxPacket
+                    0x0810                  _TxBuffer
+                    0x0838                  _TxData
+                    0x0839                  _P2PStatus
+                    0x083a                  _myPANID
+                    0x083c                  _ConnectionTable
+                    0x0896                  _rxMessage
+                    0x08a2                  _P2PCapacityInfo
+                    0x08a3                  _LatestConnection
+                    0x08a4                  _failureCounter
+                    0x08a6                  _MACInitParams
+                    0x08aa                  _RxBuffer
+                    0x08eb                  _IEEESeqNum
+                    0x08ec                  _MACCurrentChannel
+                    0x08ee                  _MAC_PANID
+                    0x08f0                  _myNetworkAddress
+                    0x08f2                  _t1
+                    0x08f6                  _t2
+                    0x08fa                  _MRF24J40Status
+                    0x08fc                  _Packet
+                    0x0900                  _boardMode
+                    0x0902                  _nodeID
+                    0x0903                  _TXID
+                    0x0904                  _thermValH
+                    0x0905                  _thermValL
+                    0x0906                  _vddValH
+                    0x0907                  _vddValL
+                    0x0908                  _lightValH
+                    0x0909                  _lightValL
+                    0x090a                  _humValH
+                    0x090b                  _humValL
+                    0x090c                  _extValH
+                    0x090d                  _extValL
+                    0x090e                  _rssiValH
+                    0x090f                  _rssiValL
+                    0x0910                  _Total_sec_cnt
+                    0x0914                  _Sec_between_packet
+                    0x0924                  _Hundred_millisecond_cnt
+                    0x0926                  _thermVal
+                    0x0928                  _tempVal
+                    0x092a                  _vddVal
+                    0x092c                  _lightVal
+                    0x092e                  _humVal
+                    0x0930                  _extVal
+                    0x0932                  _rssiVal
+                    0x0934                  _total_time_sec
+                    0x0936                  _total_time_min
+                    0x0938                  _total_time_hr
+                    0x093a                  _delta_time_sec
+                    0x093c                  _delta_time_min
+                    0x093e                  _tem
+                    0x0942                  _res
+                    0x0946                  _curr
+                    0x094a                  _temp_int
+                    0x094c                  _PressedButton
+                    0x094e                  _PUSH_BUTTON_1_pressed
+                    0x0950                  _PUSH_BUTTON_2_pressed
+                    0x0952                  _PUSH_BUTTON_pressed
+                    0x0954                  _PUSH_BUTTON_press_time
+                    0x0958                  _myLongAddress
+                    0x0960                  _version
+                    0x0962                  _myChannel
+                    0x0964                  _timerExtension1
+                    0x0965                  _timerExtension2
+                    0x096c                  ___errno_val
+                    0x096e                  ___curbrk
+
+External Symbols in Data Memory (by name):
+
+                    0x0801                  _ConnMode
+                    0x083c                  _ConnectionTable
+                    0x0924                  _Hundred_millisecond_cnt
+                    0x08eb                  _IEEESeqNum
+                    0x08a3                  _LatestConnection
+                    0x08ec                  _MACCurrentChannel
+                    0x08a6                  _MACInitParams
+                    0x0802                  _MACRxPacket
+                    0x08ee                  _MAC_PANID
+                    0x08fa                  _MRF24J40Status
+                    0x08a2                  _P2PCapacityInfo
+                    0x0839                  _P2PStatus
+                    0x094e                  _PUSH_BUTTON_1_pressed
+                    0x0950                  _PUSH_BUTTON_2_pressed
+                    0x0954                  _PUSH_BUTTON_press_time
+                    0x0952                  _PUSH_BUTTON_pressed
+                    0x08fc                  _Packet
+                    0x094c                  _PressedButton
+                    0x08aa                  _RxBuffer
+                    0x0914                  _Sec_between_packet
+                    0x0903                  _TXID
+                    0x0910                  _Total_sec_cnt
+                    0x0810                  _TxBuffer
+                    0x0838                  _TxData
+                    0x096e                  ___curbrk
+                    0x096c                  ___errno_val
+                    0x0900                  _boardMode
+                    0x0946                  _curr
+                    0x0800                  _currentChannel
+                    0x093c                  _delta_time_min
+                    0x093a                  _delta_time_sec
+                    0x0930                  _extVal
+                    0x090c                  _extValH
+                    0x090d                  _extValL
+                    0x08a4                  _failureCounter
+                    0x092e                  _humVal
+                    0x090a                  _humValH
+                    0x090b                  _humValL
+                    0x092c                  _lightVal
+                    0x0908                  _lightValH
+                    0x0909                  _lightValL
+                    0x0962                  _myChannel
+                    0x0958                  _myLongAddress
+                    0x08f0                  _myNetworkAddress
+                    0x083a                  _myPANID
+                    0x0902                  _nodeID
+                    0x0942                  _res
+                    0x0932                  _rssiVal
+                    0x090e                  _rssiValH
+                    0x090f                  _rssiValL
+                    0x0896                  _rxMessage
+                    0x08f2                  _t1
+                    0x08f6                  _t2
+                    0x093e                  _tem
+                    0x0928                  _tempVal
+                    0x094a                  _temp_int
+                    0x0926                  _thermVal
+                    0x0904                  _thermValH
+                    0x0905                  _thermValL
+                    0x0964                  _timerExtension1
+                    0x0965                  _timerExtension2
+                    0x0938                  _total_time_hr
+                    0x0936                  _total_time_min
+                    0x0934                  _total_time_sec
+                    0x092a                  _vddVal
+                    0x0906                  _vddValH
+                    0x0907                  _vddValL
+                    0x0960                  _version
+
+External Symbols in Program Memory (by address):
+
+                  0x000200                  __resetPRI
+                  0x00023c                  __psv_init
+                  0x000252                  __data_init
+                  0x000252                  __data_init_standard
+                  0x0002cc                  __CNInterrupt
+                  0x0002de                  __T1Interrupt
+                  0x000318                  __INT1Interrupt
+                  0x0003ba                  __DefaultInterrupt
+                  0x000404                  ___divsi3
+                  0x000422                  ___fixunssfsi
+                  0x000458                  ___floatunsisf
+                  0x00045c                  __funpack
+                  0x000486                  ___modsi3
+                  0x0004a4                  ___udivsi3
+                  0x0004c4                  ___umodsi3
+                  0x0004ca                  ___subsf3
+                  0x0004ca                  ___subsf3x
+                  0x0004dc                  ___addsf3
+                  0x0004dc                  ___addsf3x
+                  0x0006a6                  ___divsf3
+                  0x0006a6                  ___divsf3x
+                  0x000838                  __sdivf
+                  0x000864                  ___mulsf3
+                  0x000864                  ___mulsf3x
+                  0x000970                  __dnrmpackf
+                  0x0009c4                  __unpackdnrmf
+                  0x000a22                  __typef
+                  0x000a56                  __propnanf
+                  0x000a68                  __spackf
+                  0x000b0e                  __unpackf
+                  0x000b74                  ___floatundisf
+                  0x000bd2                  __fpack
+                  0x000c1e                  _logf
+                  0x000d64                  ___simple_malloc
+                  0x000dda                  ___expand_heap
+                  0x000dee                  ___floatsisf
+                  0x000df4                  ___floatdisf
+                  0x000e60                  _TBL_SYS_PARAMS
+                  0x000e70                  _TBL_FIX_PARAMS
+                  0x000ef0                  _TBL_SBOX
+                  0x001146                  _CharacterArray
+                  0x001156                  _MacroNop
+                  0x00115a                  _SendPacket
+                  0x0011c4                  _MiApp_BroadcastPacket
+                  0x0011d2                  _MiApp_UnicastAddress
+                  0x0011e0                  _MiApp_UnicastConnection
+                  0x0011fe                  _isSameAddress
+                  0x00121c                  _MiApp_StartConnection
+                  0x001228                  _MiApp_DiscardMessage
+                  0x00122e                  _MiApp_SetChannel
+                  0x00124c                  _MiApp_ProtocolInit
+                  0x0012a6                  _DumpConnection
+                  0x00134a                  _AddConnection
+                  0x0013ce                  _P2PTasks
+                  0x0014d0                  _MiApp_MessageAvailable
+                  0x0014da                  _MiApp_EstablishConnection
+                  0x001578                  _MiApp_ConnectionMode
+                  0x00158c                  _four_uCh2uLong
+                  0x0015ae                  _uLong2four_uCh
+                  0x0015ca                  _move
+                  0x0015ec                  _func_key
+                  0x00163a                  _func_data
+                  0x0016aa                  _SM4Enc
+                  0x001872                  _SM4Dec
+                  0x0019f8                  _PrintScreen
+                  0x001dde                  _main
+                  0x002060                  _PHYSetLongRAMAddr
+                  0x00209c                  _PHYSetShortRAMAddr
+                  0x0020cc                  _PHYGetShortRAMAddr
+                  0x0020f4                  _PHYGetLongRAMAddr
+                  0x00212a                  _MiMAC_DiscardPacket
+                  0x00212e                  _MiMAC_ReceivedPacket
+                  0x002268                  _MiMAC_SetChannel
+                  0x002290                  _InitMRF24J40
+                  0x002366                  _MiMAC_SetPower
+                  0x0023aa                  _MiMAC_SetAltAddress
+                  0x0023e6                  _MiMAC_SendPacket
+                  0x0025c0                  _MiMAC_Init
+                  0x0025d4                  _BoardInit
+                  0x002602                  _LCDTRXCount
+                  0x002604                  _LCDDisplay
+                  0x002606                  _ButtonPressed
+                  0x002668                  _ConsoleInit
+                  0x00267a                  _ConsolePut
+                  0x002688                  _ConsolePutROMString
+                  0x0026a0                  _ConsoleGet
+                  0x0026ae                  _PrintChar
+                  0x0026c6                  _PrintDec
+                  0x0026ea                  _Delay10us
+                  0x002734                  _DelayMs
+                  0x0027ba                  _SPIPut
+                  0x0027cc                  _SPIGet
+                  0x0027d4                  _InitSymbolTimer
+                  0x0027dc                  _TickGet
+
+External Symbols in Program Memory (by name):
+
+                  0x00134a                  _AddConnection
+                  0x0025d4                  _BoardInit
+                  0x002606                  _ButtonPressed
+                  0x001146                  _CharacterArray
+                  0x0026a0                  _ConsoleGet
+                  0x002668                  _ConsoleInit
+                  0x00267a                  _ConsolePut
+                  0x002688                  _ConsolePutROMString
+                  0x0026ea                  _Delay10us
+                  0x002734                  _DelayMs
+                  0x0012a6                  _DumpConnection
+                  0x002290                  _InitMRF24J40
+                  0x0027d4                  _InitSymbolTimer
+                  0x002604                  _LCDDisplay
+                  0x002602                  _LCDTRXCount
+                  0x001156                  _MacroNop
+                  0x0011c4                  _MiApp_BroadcastPacket
+                  0x001578                  _MiApp_ConnectionMode
+                  0x001228                  _MiApp_DiscardMessage
+                  0x0014da                  _MiApp_EstablishConnection
+                  0x0014d0                  _MiApp_MessageAvailable
+                  0x00124c                  _MiApp_ProtocolInit
+                  0x00122e                  _MiApp_SetChannel
+                  0x00121c                  _MiApp_StartConnection
+                  0x0011d2                  _MiApp_UnicastAddress
+                  0x0011e0                  _MiApp_UnicastConnection
+                  0x00212a                  _MiMAC_DiscardPacket
+                  0x0025c0                  _MiMAC_Init
+                  0x00212e                  _MiMAC_ReceivedPacket
+                  0x0023e6                  _MiMAC_SendPacket
+                  0x0023aa                  _MiMAC_SetAltAddress
+                  0x002268                  _MiMAC_SetChannel
+                  0x002366                  _MiMAC_SetPower
+                  0x0013ce                  _P2PTasks
+                  0x0020f4                  _PHYGetLongRAMAddr
+                  0x0020cc                  _PHYGetShortRAMAddr
+                  0x002060                  _PHYSetLongRAMAddr
+                  0x00209c                  _PHYSetShortRAMAddr
+                  0x0026ae                  _PrintChar
+                  0x0026c6                  _PrintDec
+                  0x0019f8                  _PrintScreen
+                  0x001872                  _SM4Dec
+                  0x0016aa                  _SM4Enc
+                  0x0027cc                  _SPIGet
+                  0x0027ba                  _SPIPut
+                  0x00115a                  _SendPacket
+                  0x000e70                  _TBL_FIX_PARAMS
+                  0x000ef0                  _TBL_SBOX
+                  0x000e60                  _TBL_SYS_PARAMS
+                  0x0027dc                  _TickGet
+                  0x0002cc                  __CNInterrupt
+                  0x0003ba                  __DefaultInterrupt
+                  0x000318                  __INT1Interrupt
+                  0x0002de                  __T1Interrupt
+                  0x0004dc                  ___addsf3
+                  0x0004dc                  ___addsf3x
+                  0x0006a6                  ___divsf3
+                  0x0006a6                  ___divsf3x
+                  0x000404                  ___divsi3
+                  0x000dda                  ___expand_heap
+                  0x000422                  ___fixunssfsi
+                  0x000df4                  ___floatdisf
+                  0x000dee                  ___floatsisf
+                  0x000b74                  ___floatundisf
+                  0x000458                  ___floatunsisf
+                  0x000486                  ___modsi3
+                  0x000864                  ___mulsf3
+                  0x000864                  ___mulsf3x
+                  0x000d64                  ___simple_malloc
+                  0x0004ca                  ___subsf3
+                  0x0004ca                  ___subsf3x
+                  0x0004a4                  ___udivsi3
+                  0x0004c4                  ___umodsi3
+                  0x000252                  __data_init
+                  0x000252                  __data_init_standard
+                  0x000970                  __dnrmpackf
+                  0x000bd2                  __fpack
+                  0x00045c                  __funpack
+                  0x000a56                  __propnanf
+                  0x00023c                  __psv_init
+                  0x000200                  __resetPRI
+                  0x000838                  __sdivf
+                  0x000a68                  __spackf
+                  0x000a22                  __typef
+                  0x0009c4                  __unpackdnrmf
+                  0x000b0e                  __unpackf
+                  0x00158c                  _four_uCh2uLong
+                  0x00163a                  _func_data
+                  0x0015ec                  _func_key
+                  0x0011fe                  _isSameAddress
+                  0x000c1e                  _logf
+                  0x001dde                  _main
+                  0x0015ca                  _move
+                  0x0015ae                  _uLong2four_uCh
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+data             0x000800           0x000600           a !xr
+reset            0x000000           0x000004  
+ivt              0x000004           0x0000fc  
+_reserved        0x000100           0x000004  
+aivt             0x000104           0x0000fc  
+program          0x000200           0x002a00           xr
+eedata           0x7ffe00           0x000200  
+FBS              0xf80000           0x000002  
+FGS              0xf80004           0x000002  
+FOSCSEL          0xf80006           0x000002  
+FOSC             0xf80008           0x000002  
+FWDT             0xf8000a           0x000002  
+FPOR             0xf8000c           0x000002  
+FICD             0xf8000e           0x000002  
+FDS              0xf80010           0x000002  
+*default*        0x000000           0xffffffff  
+
+Linker script and memory map
+
+LOAD build/default/production/_ext/1472/HardwareProfile.o
+LOAD build/default/production/_ext/1472/AccessPoint.o
+LOAD build/default/production/_ext/1860783399/Console.o
+LOAD build/default/production/_ext/1860783399/MSPI.o
+LOAD build/default/production/_ext/1860783399/TimeDelay.o
+LOAD build/default/production/_ext/35256690/MiWi.o
+LOAD build/default/production/_ext/1109514802/P2P.o
+LOAD build/default/production/_ext/1466186449/LCDBlocking.o
+LOAD build/default/production/_ext/1466186449/NVM.o
+LOAD build/default/production/_ext/1466186449/SymbolTime.o
+LOAD build/default/production/_ext/1127682237/crc.o
+LOAD build/default/production/_ext/1127682237/security.o
+LOAD build/default/production/_ext/1061806389/MRF24J40.o
+LOAD build/default/production/_ext/1696884637/MRF49XA.o
+LOAD build/default/production/_ext/1697003801/MRF89XA.o
+                    0x0001                  __MPLAB_BUILD = 0x1
+LOAD pPIC24Fxxx
+LOAD d:/mplab ide/xc16/bin/bin/../../lib\libfx-elf.a
+                    0xf80000                  __FBS = 0xf80000
+                    0xf80004                  __FGS = 0xf80004
+                    0xf80006                  __FOSCSEL = 0xf80006
+                    0xf80008                  __FOSC = 0xf80008
+                    0xf8000a                  __FWDT = 0xf8000a
+                    0xf8000c                  __FPOR = 0xf8000c
+                    0xf8000e                  __FICD = 0xf8000e
+                    0xf80010                  __FDS = 0xf80010
+                    0x0001                  __NO_HANDLES = 0x1
+                    0x0200                  __CODE_BASE = 0x200
+                    0x2a00                  __CODE_LENGTH = 0x2a00
+                    0x0004                  __IVT_BASE = 0x4
+                    0x0104                  __AIVT_BASE = 0x104
+                    0x0800                  __DATA_BASE = 0x800
+                    0x0600                  __DATA_LENGTH = 0x600
+
+.reset            0x000000          0x4
+                  0x000000          0x2 SHORT 0x200 ABSOLUTE (__reset)
+                  0x000001          0x2 SHORT 0x4
+                  0x000002          0x2 SHORT 0x0 ((ABSOLUTE (__reset) >> 0x10) & 0x7f)
+                  0x000003          0x2 SHORT 0x0
+
+.text             0x000200        0xc14
+ *(.init)
+ .init            0x000200         0x4c d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(crt0_standard.o)
+                  0x000200                  __resetPRI
+                  0x000200                  __reset
+                  0x00023c                  __psv_init
+ .init            0x00024c         0x7c d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(data_init_standard.o)
+                  0x000252                  __data_init_standard
+                  0x000252                  __data_init
+ *(.user_init)
+ *(.handle)
+ *(.isr*)
+ .isr.text        0x0002cc         0x12 build/default/production/_ext/1472/HardwareProfile.o
+                  0x0002cc                  __CNInterrupt
+ .isr.text        0x0002de         0x3a build/default/production/_ext/1472/AccessPoint.o
+                  0x0002de                  __T1Interrupt
+ .isr.text        0x000318         0xa2 build/default/production/_ext/1061806389/MRF24J40.o
+                  0x000318                  __INT1Interrupt
+ .isr             0x0003ba          0x4 default_isr
+                  0x0003ba                  __DefaultInterrupt
+ *(.libc)
+ .libc            0x0003be         0x2a d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(sbrk.Meo)
+                  0x0003be                  _sbrk
+ .libc            0x0003e8         0x1a d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(brk.Meo)
+                  0x0003e8                  _brk
+ *(.libm)
+ *(.libdsp)
+ *(.lib*)
+ .libpic30_crt_start_mode
+                  0x000402          0x2 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(crt_start_mode_normal.Meo)
+                  0x000402                  __crt_start_mode
+                  0x000402                  __crt_start_mode_normal
+ .libm.divsi3     0x000404         0x1e d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsi3.XX_o)
+                  0x000404                  ___divsi3
+ .libm.fixunssfsi
+                  0x000422         0x36 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(fixunssfsi.XX_o)
+                  0x000422                  ___fixunssfsi
+ .libm.floatunsisf
+                  0x000458          0x4 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o)
+                  0x000458                  ___floatunsisf
+ .libm.funpack    0x00045c         0x2a d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(funpack.XX_o)
+                  0x00045c                  __funpack
+ .libm.modsi3     0x000486         0x1e d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(modsi3.XX_o)
+                  0x000486                  ___modsi3
+ .libm.udivsi3    0x0004a4         0x20 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.XX_o)
+                  0x0004a4                  ___udivsi3
+ .libm.umodsi3    0x0004c4          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(umodsi3.XX_o)
+                  0x0004c4                  ___umodsi3
+ .libmx           0x0004ca        0x1dc d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(addsf3x.XX_o)
+                  0x0004ca                  ___subsf3x
+                  0x0004ca                  ___subsf3
+                  0x0004dc                  ___addsf3x
+                  0x0004dc                  ___addsf3
+ .libmx           0x0006a6        0x1be d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o)
+                  0x0006a6                  ___divsf3x
+                  0x0006a6                  ___divsf3
+                  0x000838                  __sdivf
+ .libmx           0x000864        0x10c d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o)
+                  0x000864                  ___mulsf3x
+                  0x000864                  ___mulsf3
+ .libmx           0x000970         0x54 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(dnrmpackfx.XX_o)
+                  0x000970                  __dnrmpackf
+ .libmx           0x0009c4         0x5e d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(unpackdnrmfx.XX_o)
+                  0x0009c4                  __unpackdnrmf
+ .libmx           0x000a22         0x34 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(typefx.XX_o)
+                  0x000a22                  __typef
+ .libmx           0x000a56         0x12 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(propnanfx.XX_o)
+                  0x000a56                  __propnanf
+ .libmx           0x000a68         0xa6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(spackfx.XX_o)
+                  0x000a68                  __spackf
+ .libmx           0x000b0e         0x66 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(unpackfx.XX_o)
+                  0x000b0e                  __unpackf
+ .libm.floatundisf
+                  0x000b74         0x5e d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o)
+                  0x000b74                  ___floatundisf
+ .libm.fpack      0x000bd2         0x4c d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(fpack.XX_o)
+                  0x000bd2                  __fpack
+ .libc.logf       0x000c1e        0x146 d:/mplab ide/xc16/bin/bin/../../lib\libm-elf.a(logf.XX_o)
+                  0x000c1e                  _logf
+ .libc.__simple_malloc
+                  0x000d64         0x76 d:/mplab ide/xc16/bin/bin/../../lib\libc99-elf.a(lite_malloc.XX_o)
+                  0x000d64                  ___malloc0
+                  0x000d64                  _malloc
+                  0x000d64                  ___simple_malloc
+ .libc.__expand_heap
+                  0x000dda         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-elf.a(expand_heap.XX_o)
+                  0x000dda                  ___expand_heap
+ .libm.floatsisf
+                  0x000dee          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o)
+                  0x000dee                  ___floatsisf
+ .libm.floatdisf
+                  0x000df4         0x20 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.XX_o)
+                  0x000df4                  ___floatdisf
+
+usercode
+ *(usercode)
+
+__FBS
+ *(__FBS.sec*)
+
+__FGS
+ *(__FGS.sec*)
+
+__FOSCSEL         0xf80006          0x2
+ *(__FOSCSEL.sec*)
+ __FOSCSEL.sec    0xf80006          0x2 build/default/production/_ext/1472/HardwareProfile.o
+
+__FOSC            0xf80008          0x2
+ *(__FOSC.sec*)
+ __FOSC.sec       0xf80008          0x2 build/default/production/_ext/1472/HardwareProfile.o
+
+__FWDT            0xf8000a          0x2
+ *(__FWDT.sec*)
+ __FWDT.sec       0xf8000a          0x2 build/default/production/_ext/1472/HardwareProfile.o
+
+__FPOR            0xf8000c          0x2
+ *(__FPOR.sec*)
+ __FPOR.sec       0xf8000c          0x2 build/default/production/_ext/1472/HardwareProfile.o
+
+__FICD            0xf8000e          0x2
+ *(__FICD.sec*)
+ __FICD.sec       0xf8000e          0x2 build/default/production/_ext/1472/HardwareProfile.o
+
+__FDS
+ *(__FDS.sec*)
+
+.comment
+ *(.comment)
+
+.debug_info       0x000000       0x7714
+ *(.debug_info)
+ .debug_info      0x000000        0xf81 build/default/production/_ext/1472/HardwareProfile.o
+ .debug_info      0x000f81       0x13c7 build/default/production/_ext/1472/AccessPoint.o
+ .debug_info      0x002348        0x81b build/default/production/_ext/1860783399/Console.o
+ .debug_info      0x002b63        0x342 build/default/production/_ext/1860783399/MSPI.o
+ .debug_info      0x002ea5        0x25b build/default/production/_ext/1860783399/TimeDelay.o
+ .debug_info      0x003100        0x17f build/default/production/_ext/35256690/MiWi.o
+ .debug_info      0x00327f       0x17d6 build/default/production/_ext/1109514802/P2P.o
+ .debug_info      0x004a55        0x18b build/default/production/_ext/1466186449/LCDBlocking.o
+ .debug_info      0x004be0        0x183 build/default/production/_ext/1466186449/NVM.o
+ .debug_info      0x004d63        0x49b build/default/production/_ext/1466186449/SymbolTime.o
+ .debug_info      0x0051fe        0x17e build/default/production/_ext/1127682237/crc.o
+ .debug_info      0x00537c        0x183 build/default/production/_ext/1127682237/security.o
+ .debug_info      0x0054ff       0x1358 build/default/production/_ext/1061806389/MRF24J40.o
+ .debug_info      0x006857        0x18a build/default/production/_ext/1696884637/MRF49XA.o
+ .debug_info      0x0069e1        0x18a build/default/production/_ext/1697003801/MRF89XA.o
+ .debug_info      0x006b6b         0x8c d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsi3.XX_o)
+ .debug_info      0x006bf7         0x90 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(fixunssfsi.XX_o)
+ .debug_info      0x006c87         0x91 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o)
+ .debug_info      0x006d18         0x8d d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(funpack.XX_o)
+ .debug_info      0x006da5         0x8c d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(modsi3.XX_o)
+ .debug_info      0x006e31         0x8d d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.XX_o)
+ .debug_info      0x006ebe         0x8d d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(umodsi3.XX_o)
+ .debug_info      0x006f4b         0x9d d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(addsf3x.XX_o)
+ .debug_info      0x006fe8         0x9d d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o)
+ .debug_info      0x007085         0x9d d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o)
+ .debug_info      0x007122         0xa0 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(dnrmpackfx.XX_o)
+ .debug_info      0x0071c2         0xa2 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(unpackdnrmfx.XX_o)
+ .debug_info      0x007264         0x9c d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(typefx.XX_o)
+ .debug_info      0x007300         0x9f d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(propnanfx.XX_o)
+ .debug_info      0x00739f         0x9d d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(spackfx.XX_o)
+ .debug_info      0x00743c         0x9e d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(unpackfx.XX_o)
+ .debug_info      0x0074da         0x91 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o)
+ .debug_info      0x00756b         0x8b d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(fpack.XX_o)
+ .debug_info      0x0075f6         0x8f d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o)
+ .debug_info      0x007685         0x8f d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.XX_o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev     0x000000        0xf4c
+ *(.debug_abbrev)
+ .debug_abbrev    0x000000        0x1cb build/default/production/_ext/1472/HardwareProfile.o
+ .debug_abbrev    0x0001cb        0x1ad build/default/production/_ext/1472/AccessPoint.o
+ .debug_abbrev    0x000378        0x164 build/default/production/_ext/1860783399/Console.o
+ .debug_abbrev    0x0004dc         0xd0 build/default/production/_ext/1860783399/MSPI.o
+ .debug_abbrev    0x0005ac         0x68 build/default/production/_ext/1860783399/TimeDelay.o
+ .debug_abbrev    0x000614         0x1f build/default/production/_ext/35256690/MiWi.o
+ .debug_abbrev    0x000633        0x2ea build/default/production/_ext/1109514802/P2P.o
+ .debug_abbrev    0x00091d         0x1f build/default/production/_ext/1466186449/LCDBlocking.o
+ .debug_abbrev    0x00093c         0x1f build/default/production/_ext/1466186449/NVM.o
+ .debug_abbrev    0x00095b        0x148 build/default/production/_ext/1466186449/SymbolTime.o
+ .debug_abbrev    0x000aa3         0x1f build/default/production/_ext/1127682237/crc.o
+ .debug_abbrev    0x000ac2         0x1f build/default/production/_ext/1127682237/security.o
+ .debug_abbrev    0x000ae1        0x29d build/default/production/_ext/1061806389/MRF24J40.o
+ .debug_abbrev    0x000d7e         0x1f build/default/production/_ext/1696884637/MRF49XA.o
+ .debug_abbrev    0x000d9d         0x1f build/default/production/_ext/1697003801/MRF89XA.o
+ .debug_abbrev    0x000dbc         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsi3.XX_o)
+ .debug_abbrev    0x000dd0         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(fixunssfsi.XX_o)
+ .debug_abbrev    0x000de4         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o)
+ .debug_abbrev    0x000df8         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(funpack.XX_o)
+ .debug_abbrev    0x000e0c         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(modsi3.XX_o)
+ .debug_abbrev    0x000e20         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.XX_o)
+ .debug_abbrev    0x000e34         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(umodsi3.XX_o)
+ .debug_abbrev    0x000e48         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(addsf3x.XX_o)
+ .debug_abbrev    0x000e5c         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o)
+ .debug_abbrev    0x000e70         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o)
+ .debug_abbrev    0x000e84         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(dnrmpackfx.XX_o)
+ .debug_abbrev    0x000e98         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(unpackdnrmfx.XX_o)
+ .debug_abbrev    0x000eac         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(typefx.XX_o)
+ .debug_abbrev    0x000ec0         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(propnanfx.XX_o)
+ .debug_abbrev    0x000ed4         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(spackfx.XX_o)
+ .debug_abbrev    0x000ee8         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(unpackfx.XX_o)
+ .debug_abbrev    0x000efc         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o)
+ .debug_abbrev    0x000f10         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(fpack.XX_o)
+ .debug_abbrev    0x000f24         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o)
+ .debug_abbrev    0x000f38         0x14 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.XX_o)
+
+.debug_line       0x000000       0x1a02
+ *(.debug_line)
+ .debug_line      0x000000        0x1a3 build/default/production/_ext/1472/HardwareProfile.o
+ .debug_line      0x0001a3        0x263 build/default/production/_ext/1472/AccessPoint.o
+ .debug_line      0x000406        0x147 build/default/production/_ext/1860783399/Console.o
+ .debug_line      0x00054d        0x128 build/default/production/_ext/1860783399/MSPI.o
+ .debug_line      0x000675         0x9e build/default/production/_ext/1860783399/TimeDelay.o
+ .debug_line      0x000713         0x1a build/default/production/_ext/35256690/MiWi.o
+ .debug_line      0x00072d        0x41d build/default/production/_ext/1109514802/P2P.o
+ .debug_line      0x000b4a         0x1a build/default/production/_ext/1466186449/LCDBlocking.o
+ .debug_line      0x000b64         0x1a build/default/production/_ext/1466186449/NVM.o
+ .debug_line      0x000b7e        0x177 build/default/production/_ext/1466186449/SymbolTime.o
+ .debug_line      0x000cf5         0x1a build/default/production/_ext/1127682237/crc.o
+ .debug_line      0x000d0f         0x1a build/default/production/_ext/1127682237/security.o
+ .debug_line      0x000d29        0x397 build/default/production/_ext/1061806389/MRF24J40.o
+ .debug_line      0x0010c0         0x1a build/default/production/_ext/1696884637/MRF49XA.o
+ .debug_line      0x0010da         0x1a build/default/production/_ext/1697003801/MRF89XA.o
+ .debug_line      0x0010f4         0x43 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsi3.XX_o)
+ .debug_line      0x001137         0x53 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(fixunssfsi.XX_o)
+ .debug_line      0x00118a         0x3b d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o)
+ .debug_line      0x0011c5         0x4a d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(funpack.XX_o)
+ .debug_line      0x00120f         0x43 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(modsi3.XX_o)
+ .debug_line      0x001252         0x45 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.XX_o)
+ .debug_line      0x001297         0x38 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(umodsi3.XX_o)
+ .debug_line      0x0012cf        0x136 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(addsf3x.XX_o)
+ .debug_line      0x001405        0x124 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o)
+ .debug_line      0x001529         0xcc d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o)
+ .debug_line      0x0015f5         0x72 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(dnrmpackfx.XX_o)
+ .debug_line      0x001667         0x7a d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(unpackdnrmfx.XX_o)
+ .debug_line      0x0016e1         0x5e d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(typefx.XX_o)
+ .debug_line      0x00173f         0x51 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(propnanfx.XX_o)
+ .debug_line      0x001790         0x98 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(spackfx.XX_o)
+ .debug_line      0x001828         0x79 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(unpackfx.XX_o)
+ .debug_line      0x0018a1         0x1a d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(errno.XX_o)
+ .debug_line      0x0018bb         0x6c d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o)
+ .debug_line      0x001927         0x5a d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(fpack.XX_o)
+ .debug_line      0x001981         0x3a d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o)
+ .debug_line      0x0019bb         0x47 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.XX_o)
+
+.debug_frame      0x000000        0x684
+ *(.debug_frame)
+ .debug_frame     0x000000         0x80 build/default/production/_ext/1472/HardwareProfile.o
+ .debug_frame     0x000080         0x84 build/default/production/_ext/1472/AccessPoint.o
+ .debug_frame     0x000104         0x9a build/default/production/_ext/1860783399/Console.o
+ .debug_frame     0x00019e         0x34 build/default/production/_ext/1860783399/MSPI.o
+ .debug_frame     0x0001d2         0x52 build/default/production/_ext/1860783399/TimeDelay.o
+ .debug_frame     0x000224        0x2a6 build/default/production/_ext/1109514802/P2P.o
+ .debug_frame     0x0004ca         0x34 build/default/production/_ext/1466186449/SymbolTime.o
+ .debug_frame     0x0004fe        0x186 build/default/production/_ext/1061806389/MRF24J40.o
+
+.debug_str        0x000000        0x43b
+ *(.debug_str)
+ .debug_str       0x000000         0x96 build/default/production/_ext/1472/HardwareProfile.o
+ .debug_str       0x000096        0x10d build/default/production/_ext/1472/AccessPoint.o
+ .debug_str       0x0001a3         0x2d build/default/production/_ext/1860783399/Console.o
+ .debug_str       0x0001d0          0x9 build/default/production/_ext/1860783399/MSPI.o
+ .debug_str       0x0001d9        0x171 build/default/production/_ext/1109514802/P2P.o
+ .debug_str       0x00034a          0xa build/default/production/_ext/1466186449/SymbolTime.o
+ .debug_str       0x000354         0xe7 build/default/production/_ext/1061806389/MRF24J40.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubnames
+                  0x000000        0x901
+ *(.debug_pubnames)
+ .debug_pubnames
+                  0x000000         0xfe build/default/production/_ext/1472/HardwareProfile.o
+ .debug_pubnames
+                  0x0000fe        0x24b build/default/production/_ext/1472/AccessPoint.o
+ .debug_pubnames
+                  0x000349         0x86 build/default/production/_ext/1860783399/Console.o
+ .debug_pubnames
+                  0x0003cf         0x28 build/default/production/_ext/1860783399/MSPI.o
+ .debug_pubnames
+                  0x0003f7         0x2c build/default/production/_ext/1860783399/TimeDelay.o
+ .debug_pubnames
+                  0x000423        0x2c4 build/default/production/_ext/1109514802/P2P.o
+ .debug_pubnames
+                  0x0006e7         0x5a build/default/production/_ext/1466186449/SymbolTime.o
+ .debug_pubnames
+                  0x000741        0x1c0 build/default/production/_ext/1061806389/MRF24J40.o
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_aranges    0x000000        0x2a0
+ *(.debug_aranges)
+ .debug_aranges
+                  0x000000         0x18 build/default/production/_ext/1472/HardwareProfile.o
+ .debug_aranges
+                  0x000018         0x18 build/default/production/_ext/1472/AccessPoint.o
+ .debug_aranges
+                  0x000030         0x18 build/default/production/_ext/1860783399/Console.o
+ .debug_aranges
+                  0x000048         0x18 build/default/production/_ext/1860783399/MSPI.o
+ .debug_aranges
+                  0x000060         0x18 build/default/production/_ext/1860783399/TimeDelay.o
+ .debug_aranges
+                  0x000078         0x18 build/default/production/_ext/1109514802/P2P.o
+ .debug_aranges
+                  0x000090         0x18 build/default/production/_ext/1466186449/SymbolTime.o
+ .debug_aranges
+                  0x0000a8         0x18 build/default/production/_ext/1061806389/MRF24J40.o
+ .debug_aranges
+                  0x0000c0         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsi3.XX_o)
+ .debug_aranges
+                  0x0000d8         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(fixunssfsi.XX_o)
+ .debug_aranges
+                  0x0000f0         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o)
+ .debug_aranges
+                  0x000108         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(funpack.XX_o)
+ .debug_aranges
+                  0x000120         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(modsi3.XX_o)
+ .debug_aranges
+                  0x000138         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.XX_o)
+ .debug_aranges
+                  0x000150         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(umodsi3.XX_o)
+ .debug_aranges
+                  0x000168         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(addsf3x.XX_o)
+ .debug_aranges
+                  0x000180         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsf3x.XX_o)
+ .debug_aranges
+                  0x000198         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(mulsf3x.XX_o)
+ .debug_aranges
+                  0x0001b0         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(dnrmpackfx.XX_o)
+ .debug_aranges
+                  0x0001c8         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(unpackdnrmfx.XX_o)
+ .debug_aranges
+                  0x0001e0         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(typefx.XX_o)
+ .debug_aranges
+                  0x0001f8         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(propnanfx.XX_o)
+ .debug_aranges
+                  0x000210         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(spackfx.XX_o)
+ .debug_aranges
+                  0x000228         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(unpackfx.XX_o)
+ .debug_aranges
+                  0x000240         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o)
+ .debug_aranges
+                  0x000258         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(fpack.XX_o)
+ .debug_aranges
+                  0x000270         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o)
+ .debug_aranges
+                  0x000288         0x18 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.XX_o)
+                    0x0000                  WREG0 = 0x0
+                    0x0000                  _WREG0 = 0x0
+                    0x0002                  WREG1 = 0x2
+                    0x0002                  _WREG1 = 0x2
+                    0x0004                  WREG2 = 0x4
+                    0x0004                  _WREG2 = 0x4
+                    0x0006                  WREG3 = 0x6
+                    0x0006                  _WREG3 = 0x6
+                    0x0008                  WREG4 = 0x8
+                    0x0008                  _WREG4 = 0x8
+                    0x000a                  WREG5 = 0xa
+                    0x000a                  _WREG5 = 0xa
+                    0x000c                  WREG6 = 0xc
+                    0x000c                  _WREG6 = 0xc
+                    0x000e                  WREG7 = 0xe
+                    0x000e                  _WREG7 = 0xe
+                    0x0010                  WREG8 = 0x10
+                    0x0010                  _WREG8 = 0x10
+                    0x0012                  WREG9 = 0x12
+                    0x0012                  _WREG9 = 0x12
+                    0x0014                  WREG10 = 0x14
+                    0x0014                  _WREG10 = 0x14
+                    0x0016                  WREG11 = 0x16
+                    0x0016                  _WREG11 = 0x16
+                    0x0018                  WREG12 = 0x18
+                    0x0018                  _WREG12 = 0x18
+                    0x001a                  WREG13 = 0x1a
+                    0x001a                  _WREG13 = 0x1a
+                    0x001c                  WREG14 = 0x1c
+                    0x001c                  _WREG14 = 0x1c
+                    0x001e                  WREG15 = 0x1e
+                    0x001e                  _WREG15 = 0x1e
+                    0x0020                  SPLIM = 0x20
+                    0x0020                  _SPLIM = 0x20
+                    0x002e                  PCL = 0x2e
+                    0x002e                  _PCL = 0x2e
+                    0x0030                  PCH = 0x30
+                    0x0030                  _PCH = 0x30
+                    0x0032                  TBLPAG = 0x32
+                    0x0032                  _TBLPAG = 0x32
+                    0x0034                  PSVPAG = 0x34
+                    0x0034                  _PSVPAG = 0x34
+                    0x0036                  RCOUNT = 0x36
+                    0x0036                  _RCOUNT = 0x36
+                    0x0042                  SR = 0x42
+                    0x0042                  _SR = 0x42
+                    0x0042                  _SRbits = 0x42
+                    0x0044                  CORCON = 0x44
+                    0x0044                  _CORCON = 0x44
+                    0x0044                  _CORCONbits = 0x44
+                    0x0052                  DISICNT = 0x52
+                    0x0052                  _DISICNT = 0x52
+                    0x0060                  CNEN1 = 0x60
+                    0x0060                  _CNEN1 = 0x60
+                    0x0060                  _CNEN1bits = 0x60
+                    0x0062                  CNEN2 = 0x62
+                    0x0062                  _CNEN2 = 0x62
+                    0x0062                  _CNEN2bits = 0x62
+                    0x0068                  CNPU1 = 0x68
+                    0x0068                  _CNPU1 = 0x68
+                    0x0068                  _CNPU1bits = 0x68
+                    0x006a                  CNPU2 = 0x6a
+                    0x006a                  _CNPU2 = 0x6a
+                    0x006a                  _CNPU2bits = 0x6a
+                    0x0070                  CNPD1 = 0x70
+                    0x0070                  _CNPD1 = 0x70
+                    0x0070                  _CNPD1bits = 0x70
+                    0x0072                  CNPD2 = 0x72
+                    0x0072                  _CNPD2 = 0x72
+                    0x0072                  _CNPD2bits = 0x72
+                    0x0080                  INTCON1 = 0x80
+                    0x0080                  _INTCON1 = 0x80
+                    0x0080                  _INTCON1bits = 0x80
+                    0x0082                  INTCON2 = 0x82
+                    0x0082                  _INTCON2 = 0x82
+                    0x0082                  _INTCON2bits = 0x82
+                    0x0084                  IFS0 = 0x84
+                    0x0084                  _IFS0 = 0x84
+                    0x0084                  _IFS0bits = 0x84
+                    0x0086                  IFS1 = 0x86
+                    0x0086                  _IFS1 = 0x86
+                    0x0086                  _IFS1bits = 0x86
+                    0x008a                  IFS3 = 0x8a
+                    0x008a                  _IFS3 = 0x8a
+                    0x008a                  _IFS3bits = 0x8a
+                    0x008c                  IFS4 = 0x8c
+                    0x008c                  _IFS4 = 0x8c
+                    0x008c                  _IFS4bits = 0x8c
+                    0x0094                  IEC0 = 0x94
+                    0x0094                  _IEC0 = 0x94
+                    0x0094                  _IEC0bits = 0x94
+                    0x0096                  IEC1 = 0x96
+                    0x0096                  _IEC1 = 0x96
+                    0x0096                  _IEC1bits = 0x96
+                    0x009a                  IEC3 = 0x9a
+                    0x009a                  _IEC3 = 0x9a
+                    0x009a                  _IEC3bits = 0x9a
+                    0x009c                  IEC4 = 0x9c
+                    0x009c                  _IEC4 = 0x9c
+                    0x009c                  _IEC4bits = 0x9c
+                    0x00a4                  IPC0 = 0xa4
+                    0x00a4                  _IPC0 = 0xa4
+                    0x00a4                  _IPC0bits = 0xa4
+                    0x00a6                  IPC1 = 0xa6
+                    0x00a6                  _IPC1 = 0xa6
+                    0x00a6                  _IPC1bits = 0xa6
+                    0x00a8                  IPC2 = 0xa8
+                    0x00a8                  _IPC2 = 0xa8
+                    0x00a8                  _IPC2bits = 0xa8
+                    0x00aa                  IPC3 = 0xaa
+                    0x00aa                  _IPC3 = 0xaa
+                    0x00aa                  _IPC3bits = 0xaa
+                    0x00ac                  IPC4 = 0xac
+                    0x00ac                  _IPC4 = 0xac
+                    0x00ac                  _IPC4bits = 0xac
+                    0x00ae                  IPC5 = 0xae
+                    0x00ae                  _IPC5 = 0xae
+                    0x00ae                  _IPC5bits = 0xae
+                    0x00b2                  IPC7 = 0xb2
+                    0x00b2                  _IPC7 = 0xb2
+                    0x00b2                  _IPC7bits = 0xb2
+                    0x00c2                  IPC15 = 0xc2
+                    0x00c2                  _IPC15 = 0xc2
+                    0x00c2                  _IPC15bits = 0xc2
+                    0x00c4                  IPC16 = 0xc4
+                    0x00c4                  _IPC16 = 0xc4
+                    0x00c4                  _IPC16bits = 0xc4
+                    0x00c8                  IPC18 = 0xc8
+                    0x00c8                  _IPC18 = 0xc8
+                    0x00c8                  _IPC18bits = 0xc8
+                    0x00ca                  IPC19 = 0xca
+                    0x00ca                  _IPC19 = 0xca
+                    0x00ca                  _IPC19bits = 0xca
+                    0x00e0                  INTTREG = 0xe0
+                    0x00e0                  _INTTREG = 0xe0
+                    0x00e0                  _INTTREGbits = 0xe0
+                    0x0100                  TMR1 = 0x100
+                    0x0100                  _TMR1 = 0x100
+                    0x0102                  PR1 = 0x102
+                    0x0102                  _PR1 = 0x102
+                    0x0104                  T1CON = 0x104
+                    0x0104                  _T1CON = 0x104
+                    0x0104                  _T1CONbits = 0x104
+                    0x0106                  TMR2 = 0x106
+                    0x0106                  _TMR2 = 0x106
+                    0x0108                  TMR3HLD = 0x108
+                    0x0108                  _TMR3HLD = 0x108
+                    0x010a                  TMR3 = 0x10a
+                    0x010a                  _TMR3 = 0x10a
+                    0x010c                  PR2 = 0x10c
+                    0x010c                  _PR2 = 0x10c
+                    0x010e                  PR3 = 0x10e
+                    0x010e                  _PR3 = 0x10e
+                    0x0110                  T2CON = 0x110
+                    0x0110                  _T2CON = 0x110
+                    0x0110                  _T2CONbits = 0x110
+                    0x0112                  T3CON = 0x112
+                    0x0112                  _T3CON = 0x112
+                    0x0112                  _T3CONbits = 0x112
+                    0x0140                  IC1BUF = 0x140
+                    0x0140                  _IC1BUF = 0x140
+                    0x0142                  IC1CON = 0x142
+                    0x0142                  _IC1CON = 0x142
+                    0x0142                  _IC1CONbits = 0x142
+                    0x0180                  OC1RS = 0x180
+                    0x0180                  _OC1RS = 0x180
+                    0x0182                  OC1R = 0x182
+                    0x0182                  _OC1R = 0x182
+                    0x0184                  OC1CON = 0x184
+                    0x0184                  _OC1CON = 0x184
+                    0x0184                  _OC1CONbits = 0x184
+                    0x0200                  I2C1RCV = 0x200
+                    0x0200                  _I2C1RCV = 0x200
+                    0x0202                  I2C1TRN = 0x202
+                    0x0202                  _I2C1TRN = 0x202
+                    0x0204                  I2C1BRG = 0x204
+                    0x0204                  _I2C1BRG = 0x204
+                    0x0206                  I2C1CON = 0x206
+                    0x0206                  _I2C1CON = 0x206
+                    0x0206                  _I2C1CONbits = 0x206
+                    0x0208                  I2C1STAT = 0x208
+                    0x0208                  _I2C1STAT = 0x208
+                    0x0208                  _I2C1STATbits = 0x208
+                    0x020a                  I2C1ADD = 0x20a
+                    0x020a                  _I2C1ADD = 0x20a
+                    0x020c                  I2C1MSK = 0x20c
+                    0x020c                  _I2C1MSK = 0x20c
+                    0x020c                  _I2C1MSKbits = 0x20c
+                    0x0220                  U1MODE = 0x220
+                    0x0220                  _U1MODE = 0x220
+                    0x0220                  _U1MODEbits = 0x220
+                    0x0222                  U1STA = 0x222
+                    0x0222                  _U1STA = 0x222
+                    0x0222                  _U1STAbits = 0x222
+                    0x0224                  U1TXREG = 0x224
+                    0x0224                  _U1TXREG = 0x224
+                    0x0226                  U1RXREG = 0x226
+                    0x0226                  _U1RXREG = 0x226
+                    0x0228                  U1BRG = 0x228
+                    0x0228                  _U1BRG = 0x228
+                    0x0230                  U2MODE = 0x230
+                    0x0230                  _U2MODE = 0x230
+                    0x0230                  _U2MODEbits = 0x230
+                    0x0232                  U2STA = 0x232
+                    0x0232                  _U2STA = 0x232
+                    0x0232                  _U2STAbits = 0x232
+                    0x0234                  U2TXREG = 0x234
+                    0x0234                  _U2TXREG = 0x234
+                    0x0236                  U2RXREG = 0x236
+                    0x0236                  _U2RXREG = 0x236
+                    0x0238                  U2BRG = 0x238
+                    0x0238                  _U2BRG = 0x238
+                    0x0240                  SPI1STAT = 0x240
+                    0x0240                  _SPI1STAT = 0x240
+                    0x0240                  _SPI1STATbits = 0x240
+                    0x0242                  SPI1CON1 = 0x242
+                    0x0242                  _SPI1CON1 = 0x242
+                    0x0242                  _SPI1CON1bits = 0x242
+                    0x0244                  SPI1CON2 = 0x244
+                    0x0244                  _SPI1CON2 = 0x244
+                    0x0244                  _SPI1CON2bits = 0x244
+                    0x0248                  SPI1BUF = 0x248
+                    0x0248                  _SPI1BUF = 0x248
+                    0x02c0                  TRISA = 0x2c0
+                    0x02c0                  _TRISA = 0x2c0
+                    0x02c0                  _TRISAbits = 0x2c0
+                    0x02c2                  PORTA = 0x2c2
+                    0x02c2                  _PORTA = 0x2c2
+                    0x02c2                  _PORTAbits = 0x2c2
+                    0x02c4                  LATA = 0x2c4
+                    0x02c4                  _LATA = 0x2c4
+                    0x02c4                  _LATAbits = 0x2c4
+                    0x02c6                  ODCA = 0x2c6
+                    0x02c6                  _ODCA = 0x2c6
+                    0x02c6                  _ODCAbits = 0x2c6
+                    0x02c8                  TRISB = 0x2c8
+                    0x02c8                  _TRISB = 0x2c8
+                    0x02c8                  _TRISBbits = 0x2c8
+                    0x02ca                  PORTB = 0x2ca
+                    0x02ca                  _PORTB = 0x2ca
+                    0x02ca                  _PORTBbits = 0x2ca
+                    0x02cc                  LATB = 0x2cc
+                    0x02cc                  _LATB = 0x2cc
+                    0x02cc                  _LATBbits = 0x2cc
+                    0x02ce                  ODCB = 0x2ce
+                    0x02ce                  _ODCB = 0x2ce
+                    0x02ce                  _ODCBbits = 0x2ce
+                    0x02fc                  PADCFG1 = 0x2fc
+                    0x02fc                  _PADCFG1 = 0x2fc
+                    0x02fc                  _PADCFG1bits = 0x2fc
+                    0x0300                  ADC1BUF0 = 0x300
+                    0x0300                  _ADC1BUF0 = 0x300
+                    0x0302                  ADC1BUF1 = 0x302
+                    0x0302                  _ADC1BUF1 = 0x302
+                    0x0304                  ADC1BUF2 = 0x304
+                    0x0304                  _ADC1BUF2 = 0x304
+                    0x0306                  ADC1BUF3 = 0x306
+                    0x0306                  _ADC1BUF3 = 0x306
+                    0x0308                  ADC1BUF4 = 0x308
+                    0x0308                  _ADC1BUF4 = 0x308
+                    0x030a                  ADC1BUF5 = 0x30a
+                    0x030a                  _ADC1BUF5 = 0x30a
+                    0x030c                  ADC1BUF6 = 0x30c
+                    0x030c                  _ADC1BUF6 = 0x30c
+                    0x030e                  ADC1BUF7 = 0x30e
+                    0x030e                  _ADC1BUF7 = 0x30e
+                    0x0310                  ADC1BUF8 = 0x310
+                    0x0310                  _ADC1BUF8 = 0x310
+                    0x0312                  ADC1BUF9 = 0x312
+                    0x0312                  _ADC1BUF9 = 0x312
+                    0x0314                  ADC1BUFA = 0x314
+                    0x0314                  _ADC1BUFA = 0x314
+                    0x0316                  ADC1BUFB = 0x316
+                    0x0316                  _ADC1BUFB = 0x316
+                    0x0318                  ADC1BUFC = 0x318
+                    0x0318                  _ADC1BUFC = 0x318
+                    0x031a                  ADC1BUFD = 0x31a
+                    0x031a                  _ADC1BUFD = 0x31a
+                    0x031c                  ADC1BUFE = 0x31c
+                    0x031c                  _ADC1BUFE = 0x31c
+                    0x031e                  ADC1BUFF = 0x31e
+                    0x031e                  _ADC1BUFF = 0x31e
+                    0x0320                  AD1CON1 = 0x320
+                    0x0320                  _AD1CON1 = 0x320
+                    0x0320                  _AD1CON1bits = 0x320
+                    0x0322                  AD1CON2 = 0x322
+                    0x0322                  _AD1CON2 = 0x322
+                    0x0322                  _AD1CON2bits = 0x322
+                    0x0324                  AD1CON3 = 0x324
+                    0x0324                  _AD1CON3 = 0x324
+                    0x0324                  _AD1CON3bits = 0x324
+                    0x0328                  AD1CHS = 0x328
+                    0x0328                  _AD1CHS = 0x328
+                    0x0328                  _AD1CHSbits = 0x328
+                    0x032c                  AD1PCFG = 0x32c
+                    0x032c                  _AD1PCFG = 0x32c
+                    0x032c                  _AD1PCFGbits = 0x32c
+                    0x0330                  AD1CSSL = 0x330
+                    0x0330                  _AD1CSSL = 0x330
+                    0x0330                  _AD1CSSLbits = 0x330
+                    0x033c                  CTMUCON = 0x33c
+                    0x033c                  _CTMUCON = 0x33c
+                    0x033c                  _CTMUCONbits = 0x33c
+                    0x033e                  CTMUICON = 0x33e
+                    0x033e                  _CTMUICON = 0x33e
+                    0x033e                  _CTMUICONbits = 0x33e
+                    0x0620                  ALRMVAL = 0x620
+                    0x0620                  _ALRMVAL = 0x620
+                    0x0622                  ALCFGRPT = 0x622
+                    0x0622                  _ALCFGRPT = 0x622
+                    0x0622                  _ALCFGRPTbits = 0x622
+                    0x0624                  RTCVAL = 0x624
+                    0x0624                  _RTCVAL = 0x624
+                    0x0626                  RCFGCAL = 0x626
+                    0x0626                  _RCFGCAL = 0x626
+                    0x0626                  _RCFGCALbits = 0x626
+                    0x0630                  CMSTAT = 0x630
+                    0x0630                  _CMSTAT = 0x630
+                    0x0630                  _CMSTATbits = 0x630
+                    0x0632                  CVRCON = 0x632
+                    0x0632                  _CVRCON = 0x632
+                    0x0632                  _CVRCONbits = 0x632
+                    0x0634                  CM1CON = 0x634
+                    0x0634                  _CM1CON = 0x634
+                    0x0634                  _CM1CONbits = 0x634
+                    0x0636                  CM2CON = 0x636
+                    0x0636                  _CM2CON = 0x636
+                    0x0636                  _CM2CONbits = 0x636
+                    0x0640                  CRCCON = 0x640
+                    0x0640                  _CRCCON = 0x640
+                    0x0640                  _CRCCONbits = 0x640
+                    0x0642                  CRCXOR = 0x642
+                    0x0642                  _CRCXOR = 0x642
+                    0x0644                  CRCDAT = 0x644
+                    0x0644                  _CRCDAT = 0x644
+                    0x0646                  CRCWDAT = 0x646
+                    0x0646                  _CRCWDAT = 0x646
+                    0x0740                  RCON = 0x740
+                    0x0740                  _RCON = 0x740
+                    0x0740                  _RCONbits = 0x740
+                    0x0742                  OSCCON = 0x742
+                    0x0742                  _OSCCON = 0x742
+                    0x0742                  _OSCCONbits = 0x742
+                    0x0742                  OSCCONL = 0x742
+                    0x0742                  _OSCCONL = 0x742
+                    0x0743                  OSCCONH = 0x743
+                    0x0743                  _OSCCONH = 0x743
+                    0x0744                  CLKDIV = 0x744
+                    0x0744                  _CLKDIV = 0x744
+                    0x0744                  _CLKDIVbits = 0x744
+                    0x0748                  OSCTUN = 0x748
+                    0x0748                  _OSCTUN = 0x748
+                    0x0748                  _OSCTUNbits = 0x748
+                    0x074e                  REFOCON = 0x74e
+                    0x074e                  _REFOCON = 0x74e
+                    0x074e                  _REFOCONbits = 0x74e
+                    0x0756                  HLVDCON = 0x756
+                    0x0756                  _HLVDCON = 0x756
+                    0x0756                  _HLVDCONbits = 0x756
+                    0x0758                  DSCON = 0x758
+                    0x0758                  _DSCON = 0x758
+                    0x0758                  _DSCONbits = 0x758
+                    0x075a                  DSWAKE = 0x75a
+                    0x075a                  _DSWAKE = 0x75a
+                    0x075a                  _DSWAKEbits = 0x75a
+                    0x075a                  DSWSRC = 0x75a
+                    0x075a                  _DSWSRC = 0x75a
+                    0x075a                  _DSWSRCbits = 0x75a
+                    0x075c                  DSGPR0 = 0x75c
+                    0x075c                  _DSGPR0 = 0x75c
+                    0x075e                  DSGPR1 = 0x75e
+                    0x075e                  _DSGPR1 = 0x75e
+                    0x0760                  NVMCON = 0x760
+                    0x0760                  _NVMCON = 0x760
+                    0x0760                  _NVMCONbits = 0x760
+                    0x0766                  NVMKEY = 0x766
+                    0x0766                  _NVMKEY = 0x766
+                    0x0766                  _NVMKEYbits = 0x766
+                    0x0770                  PMD1 = 0x770
+                    0x0770                  _PMD1 = 0x770
+                    0x0770                  _PMD1bits = 0x770
+                    0x0772                  PMD2 = 0x772
+                    0x0772                  _PMD2 = 0x772
+                    0x0772                  _PMD2bits = 0x772
+                    0x0774                  PMD3 = 0x774
+                    0x0774                  _PMD3 = 0x774
+                    0x0774                  _PMD3bits = 0x774
+                    0x0776                  PMD4 = 0x776
+                    0x0776                  _PMD4 = 0x776
+                    0x0776                  _PMD4bits = 0x776
+                    0x0140                  IC1 = 0x140
+                    0x0140                  _IC1 = 0x140
+                    0x0180                  OC1 = 0x180
+                    0x0180                  _OC1 = 0x180
+                    0x0240                  SPI1 = 0x240
+                    0x0240                  _SPI1 = 0x240
+                    0x0220                  UART1 = 0x220
+                    0x0220                  _UART1 = 0x220
+                    0x0230                  UART2 = 0x230
+                    0x0230                  _UART2 = 0x230
+START GROUP
+LOAD d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a
+LOAD d:/mplab ide/xc16/bin/bin/../../lib\libm-elf.a
+LOAD d:/mplab ide/xc16/bin/bin/../../lib\libc99-elf.a
+END GROUP
+OUTPUT(dist/default/production/Access_Point.X.production.elf elf32-pic30)
+LOAD jump_table
+LOAD default_isr
+LOAD data_init
+
+.debug_pubtypes
+                  0x0002a0        0x7a4
+ .debug_pubtypes
+                  0x0002a0        0x196 build/default/production/_ext/1472/HardwareProfile.o
+ .debug_pubtypes
+                  0x000436        0x111 build/default/production/_ext/1472/AccessPoint.o
+ .debug_pubtypes
+                  0x000547         0x85 build/default/production/_ext/1860783399/Console.o
+ .debug_pubtypes
+                  0x0005cc         0x45 build/default/production/_ext/1860783399/MSPI.o
+ .debug_pubtypes
+                  0x000611         0x3c build/default/production/_ext/1860783399/TimeDelay.o
+ .debug_pubtypes
+                  0x00064d         0x12 build/default/production/_ext/35256690/MiWi.o
+ .debug_pubtypes
+                  0x00065f        0x183 build/default/production/_ext/1109514802/P2P.o
+ .debug_pubtypes
+                  0x0007e2         0x12 build/default/production/_ext/1466186449/LCDBlocking.o
+ .debug_pubtypes
+                  0x0007f4         0x12 build/default/production/_ext/1466186449/NVM.o
+ .debug_pubtypes
+                  0x000806         0x8d build/default/production/_ext/1466186449/SymbolTime.o
+ .debug_pubtypes
+                  0x000893         0x12 build/default/production/_ext/1127682237/crc.o
+ .debug_pubtypes
+                  0x0008a5         0x12 build/default/production/_ext/1127682237/security.o
+ .debug_pubtypes
+                  0x0008b7        0x169 build/default/production/_ext/1061806389/MRF24J40.o
+ .debug_pubtypes
+                  0x000a20         0x12 build/default/production/_ext/1696884637/MRF49XA.o
+ .debug_pubtypes
+                  0x000a32         0x12 build/default/production/_ext/1697003801/MRF89XA.o
+
+__c30_signature
+                  0x000a44         0xd2
+ __c30_signature
+                  0x000a44          0x6 build/default/production/_ext/1472/HardwareProfile.o
+ __c30_signature
+                  0x000a4a          0x6 build/default/production/_ext/1472/AccessPoint.o
+ __c30_signature
+                  0x000a50          0x6 build/default/production/_ext/1860783399/Console.o
+ __c30_signature
+                  0x000a56          0x6 build/default/production/_ext/1860783399/MSPI.o
+ __c30_signature
+                  0x000a5c          0x6 build/default/production/_ext/1860783399/TimeDelay.o
+ __c30_signature
+                  0x000a62          0x6 build/default/production/_ext/35256690/MiWi.o
+ __c30_signature
+                  0x000a68          0x6 build/default/production/_ext/1109514802/P2P.o
+ __c30_signature
+                  0x000a6e          0x6 build/default/production/_ext/1466186449/LCDBlocking.o
+ __c30_signature
+                  0x000a74          0x6 build/default/production/_ext/1466186449/NVM.o
+ __c30_signature
+                  0x000a7a          0x6 build/default/production/_ext/1466186449/SymbolTime.o
+ __c30_signature
+                  0x000a80          0x6 build/default/production/_ext/1127682237/crc.o
+ __c30_signature
+                  0x000a86          0x6 build/default/production/_ext/1127682237/security.o
+ __c30_signature
+                  0x000a8c          0x6 build/default/production/_ext/1061806389/MRF24J40.o
+ __c30_signature
+                  0x000a92          0x6 build/default/production/_ext/1696884637/MRF49XA.o
+ __c30_signature
+                  0x000a98          0x6 build/default/production/_ext/1697003801/MRF89XA.o
+ __c30_signature
+                  0x000a9e          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(crt0_standard.o)
+ __c30_signature
+                  0x000aa4          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(data_init_standard.o)
+ __c30_signature
+                  0x000aaa          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(divsi3.XX_o)
+ __c30_signature
+                  0x000ab0          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(fixunssfsi.XX_o)
+ __c30_signature
+                  0x000ab6          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatunsisf.XX_o)
+ __c30_signature
+                  0x000abc          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(funpack.XX_o)
+ __c30_signature
+                  0x000ac2          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(modsi3.XX_o)
+ __c30_signature
+                  0x000ac8          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.XX_o)
+ __c30_signature
+                  0x000ace          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(umodsi3.XX_o)
+ __c30_signature
+                  0x000ad4          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(errno.XX_o)
+ __c30_signature
+                  0x000ada          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatundisf.XX_o)
+ __c30_signature
+                  0x000ae0          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(fpack.XX_o)
+ __c30_signature
+                  0x000ae6          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libm-elf.a(logf.XX_o)
+ __c30_signature
+                  0x000aec          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-elf.a(lite_malloc.XX_o)
+ __c30_signature
+                  0x000af2          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-elf.a(expand_heap.XX_o)
+ __c30_signature
+                  0x000af8          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-elf.a(__errno_location.XX_o)
+ __c30_signature
+                  0x000afe          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatsisf.XX_o)
+ __c30_signature
+                  0x000b04          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(floatdisf.XX_o)
+ __c30_signature
+                  0x000b0a          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(sbrk.Meo)
+ __c30_signature
+                  0x000b10          0x6 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(brk.Meo)
+
+.nbss               0x0800        0x158
+ .nbss              0x0800         0xa4 build/default/production/_ext/1109514802/P2P.o
+                    0x0800                  _currentChannel
+                    0x0801                  _ConnMode
+                    0x0802                  _MACRxPacket
+                    0x0810                  _TxBuffer
+                    0x0838                  _TxData
+                    0x0839                  _P2PStatus
+                    0x083a                  _myPANID
+                    0x083c                  _ConnectionTable
+                    0x0896                  _rxMessage
+                    0x08a2                  _P2PCapacityInfo
+                    0x08a3                  _LatestConnection
+ .nbss              0x08a4         0x58 build/default/production/_ext/1061806389/MRF24J40.o
+                    0x08a4                  _failureCounter
+                    0x08a6                  _MACInitParams
+                    0x08aa                  _RxBuffer
+                    0x08eb                  _IEEESeqNum
+                    0x08ec                  _MACCurrentChannel
+                    0x08ee                  _MAC_PANID
+                    0x08f0                  _myNetworkAddress
+                    0x08f2                  _t1
+                    0x08f6                  _t2
+                    0x08fa                  _MRF24J40Status
+ .nbss              0x08fc         0x52 build/default/production/_ext/1472/AccessPoint.o
+                    0x08fc                  _Packet
+                    0x0900                  _boardMode
+                    0x0902                  _nodeID
+                    0x0903                  _TXID
+                    0x0904                  _thermValH
+                    0x0905                  _thermValL
+                    0x0906                  _vddValH
+                    0x0907                  _vddValL
+                    0x0908                  _lightValH
+                    0x0909                  _lightValL
+                    0x090a                  _humValH
+                    0x090b                  _humValL
+                    0x090c                  _extValH
+                    0x090d                  _extValL
+                    0x090e                  _rssiValH
+                    0x090f                  _rssiValL
+                    0x0910                  _Total_sec_cnt
+                    0x0914                  _Sec_between_packet
+                    0x0924                  _Hundred_millisecond_cnt
+                    0x0926                  _thermVal
+                    0x0928                  _tempVal
+                    0x092a                  _vddVal
+                    0x092c                  _lightVal
+                    0x092e                  _humVal
+                    0x0930                  _extVal
+                    0x0932                  _rssiVal
+                    0x0934                  _total_time_sec
+                    0x0936                  _total_time_min
+                    0x0938                  _total_time_hr
+                    0x093a                  _delta_time_sec
+                    0x093c                  _delta_time_min
+                    0x093e                  _tem
+                    0x0942                  _res
+                    0x0946                  _curr
+                    0x094a                  _temp_int
+                    0x094c                  _PressedButton
+ .nbss              0x094e          0xa build/default/production/_ext/1472/HardwareProfile.o
+                    0x094e                  _PUSH_BUTTON_1_pressed
+                    0x0950                  _PUSH_BUTTON_2_pressed
+                    0x0952                  _PUSH_BUTTON_pressed
+                    0x0954                  _PUSH_BUTTON_press_time
+
+.ndata              0x0958          0xc
+ .ndata             0x0958          0x8 build/default/production/_ext/1109514802/P2P.o
+                    0x0958                  _myLongAddress
+ .ndata             0x0960          0x4 build/default/production/_ext/1472/AccessPoint.o
+                    0x0960                  _version
+                    0x0962                  _myChannel
+
+.nbss               0x0964          0x4
+ .nbss              0x0964          0x2 build/default/production/_ext/1466186449/SymbolTime.o
+                    0x0964                  _timerExtension1
+                    0x0965                  _timerExtension2
+ .nbss              0x0966          0x2 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(errno.XX_o)
+                    0x0966                  _errno
+
+.bss                0x0968          0x8
+ .bss               0x0968          0x4 d:/mplab ide/xc16/bin/bin/../../lib\libc99-elf.a(lite_malloc.XX_o)
+ .bss               0x096c          0x2 d:/mplab ide/xc16/bin/bin/../../lib\libc99-elf.a(__errno_location.XX_o)
+                    0x096c                  ___errno_val
+ .bss               0x096e          0x2 d:/mplab ide/xc16/bin/bin/../../lib\libc99-pic30-elf.a(brk.Meo)
+                    0x096e                  ___curbrk
+
+.ivt._CNInterrupt
+                  0x00003a          0x2
+ .ivt._CNInterrupt
+                  0x00003a          0x2 build/default/production/_ext/1472/HardwareProfile.o
+
+.ivt._T1Interrupt
+                  0x00001a          0x2
+ .ivt._T1Interrupt
+                  0x00001a          0x2 build/default/production/_ext/1472/AccessPoint.o
+
+.ivt._INT1Interrupt
+                  0x00003c          0x2
+ .ivt._INT1Interrupt
+                  0x00003c          0x2 build/default/production/_ext/1061806389/MRF24J40.o
+
+.const              0x8e14        0x342 load address 0x000e14  
+ .const             0x8e14        0x1dc build/default/production/_ext/1109514802/P2P.o
+                    0x8e60                  _TBL_SYS_PARAMS
+                    0x8e70                  _TBL_FIX_PARAMS
+                    0x8ef0                  _TBL_SBOX
+ .const             0x8ff0        0x156 build/default/production/_ext/1472/AccessPoint.o
+ .const             0x9146         0x10 build/default/production/_ext/1860783399/Console.o
+                    0x9146                  _CharacterArray
+
+.text             0x001156       0x1616
+ .text            0x001156        0x8a2 build/default/production/_ext/1109514802/P2P.o
+                  0x001156                  _MacroNop
+                  0x00115a                  _SendPacket
+                  0x0011c4                  _MiApp_BroadcastPacket
+                  0x0011d2                  _MiApp_UnicastAddress
+                  0x0011e0                  _MiApp_UnicastConnection
+                  0x0011fe                  _isSameAddress
+                  0x00121c                  _MiApp_StartConnection
+                  0x001228                  _MiApp_DiscardMessage
+                  0x00122e                  _MiApp_SetChannel
+                  0x00124c                  _MiApp_ProtocolInit
+                  0x0012a6                  _DumpConnection
+                  0x00134a                  _AddConnection
+                  0x0013ce                  _P2PTasks
+                  0x0014d0                  _MiApp_MessageAvailable
+                  0x0014da                  _MiApp_EstablishConnection
+                  0x001578                  _MiApp_ConnectionMode
+                  0x00158c                  _four_uCh2uLong
+                  0x0015ae                  _uLong2four_uCh
+                  0x0015ca                  _move
+                  0x0015ec                  _func_key
+                  0x00163a                  _func_data
+                  0x0016aa                  _SM4Enc
+                  0x001872                  _SM4Dec
+ .text            0x0019f8        0x668 build/default/production/_ext/1472/AccessPoint.o
+                  0x0019f8                  _PrintScreen
+                  0x001dde                  _main
+ .text            0x002060        0x574 build/default/production/_ext/1061806389/MRF24J40.o
+                  0x002060                  _PHYSetLongRAMAddr
+                  0x00209c                  _PHYSetShortRAMAddr
+                  0x0020cc                  _PHYGetShortRAMAddr
+                  0x0020f4                  _PHYGetLongRAMAddr
+                  0x00212a                  _MiMAC_DiscardPacket
+                  0x00212e                  _MiMAC_ReceivedPacket
+                  0x002268                  _MiMAC_SetChannel
+                  0x002290                  _InitMRF24J40
+                  0x002366                  _MiMAC_SetPower
+                  0x0023aa                  _MiMAC_SetAltAddress
+                  0x0023e6                  _MiMAC_SendPacket
+                  0x0025c0                  _MiMAC_Init
+ .text            0x0025d4         0x94 build/default/production/_ext/1472/HardwareProfile.o
+                  0x0025d4                  _BoardInit
+                  0x002602                  _LCDTRXCount
+                  0x002604                  _LCDDisplay
+                  0x002606                  _ButtonPressed
+ .text            0x002668         0x82 build/default/production/_ext/1860783399/Console.o
+                  0x002668                  _ConsoleInit
+                  0x00267a                  _ConsolePut
+                  0x002688                  _ConsolePutROMString
+                  0x0026a0                  _ConsoleGet
+                  0x0026ae                  _PrintChar
+                  0x0026c6                  _PrintDec
+ .text            0x0026ea         0x82 build/default/production/_ext/1860783399/TimeDelay.o
+                  0x0026ea                  _Delay10us
+                  0x002734                  _DelayMs
+
+.dinit            0x00276c         0x4e
+ .dinit           0x00276c         0x4e data_init
+
+.text             0x0027ba         0x2e
+ .text            0x0027ba         0x1a build/default/production/_ext/1860783399/MSPI.o
+                  0x0027ba                  _SPIPut
+                  0x0027cc                  _SPIGet
+ .text            0x0027d4         0x14 build/default/production/_ext/1466186449/SymbolTime.o
+                  0x0027d4                  _InitSymbolTimer
+                  0x0027dc                  _TickGet

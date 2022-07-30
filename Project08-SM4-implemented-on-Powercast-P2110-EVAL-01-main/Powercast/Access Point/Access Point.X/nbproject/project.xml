@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>Access Point</name>
+            <creation-uuid>d5dbffa9-fe6a-4ea6-9a92-e21b7e03e8a8</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>..</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\Transceivers</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\Transceivers\MRF24J40</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\Include</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\Common</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\WirelessProtocols\P2P</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\WirelessProtocols</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\Include\WirelessProtocols\MiWi</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\Include\WirelessProtocols\P2P</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\Include\Transceivers\MRF89XA</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\Include\WirelessProtocols</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\Include\Transceivers\MRF24J40</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\Transceivers\MRF49XA</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\WirelessProtocols\MiWi</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\Transceivers\MRF89XA</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\Include\Transceivers\MRF49XA</sourceRootElem>
+                <sourceRootElem>..\..\..\Microchip\Include\Transceivers</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>default</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
