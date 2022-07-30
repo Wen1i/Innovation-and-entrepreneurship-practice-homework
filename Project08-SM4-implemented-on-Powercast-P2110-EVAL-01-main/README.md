@@ -1,6 +1,10 @@
 # 介绍
 在无线电自供能设备Powercast-P2110-EVAL-01上成功部署了SM4算法，Powercast P2110-EVAL-01是由位于美国的 Powercast 公司所推出的面向无源感知领域的无源传感器网络开发套件，设备实物如图1所示（由学院老师支持使用）。
 ![image](https://user-images.githubusercontent.com/104118101/178275470-569891cf-7fb1-45e7-a1dc-2361e9725dac.png)
+# 运行指导
+运行Powecast/Access Poiont/AccessPoint.c实现AP端的运行<br>
+运行Powecast/End Poiont/EndPoint.c实现AP端的运行<br>
+# 输出结果
 <br>在这里使用CoolTerm实现输出显示，输出结果如图2所示。<br>
 ![image](https://user-images.githubusercontent.com/104118101/178276064-9dbf8471-c89c-45bb-950b-9068760c96e4.png)
 
