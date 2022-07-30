@@ -17,5 +17,5 @@
 * Project11: impl ECMH scheme
 * Project12: deduce public key
 * Project13: Verify the pitfalls
-* Project14:
+* Project14: Google Password Checkup
 * Project15: forge a signature that you are Satoshi
