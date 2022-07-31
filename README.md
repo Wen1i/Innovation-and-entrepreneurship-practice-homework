@@ -31,3 +31,7 @@
 * Project15: forge a signature that you are Satoshi
 ### Eth
 * Project18: research report on MPT
+## 未实现
+* Real World Cryptanalyses
+* zk-SNARKs
+* send a tx on Bitcoin testnet, and parse the tx data down to every bit, better write script yourself
