@@ -1,6 +1,6 @@
 ## Project16 SM2 two-party sign
 ## 实验内容
-![img.png](img.png)
+![img](https://user-images.githubusercontent.com/104118101/182006647-9436f9c3-5e1f-485e-adc5-aedf2add2d9c.png)
 
 设左边为client端，右边为server端<br>
 client端进行补步骤为:
@@ -18,4 +18,4 @@ server端进行的步骤为:
 先运行文件server.py, 再运行文件client.py,输入消息即可。
 
 ## 运行结果
-![img_1.png](img_1.png)
+![img_1](https://user-images.githubusercontent.com/104118101/182006654-3495ff4a-502f-4805-a49f-8526109d5399.png)
