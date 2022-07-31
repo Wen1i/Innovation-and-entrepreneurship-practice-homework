@@ -28,3 +28,5 @@
 * Project17: implement sm2 2P decrypt with real network communication
 ### Bitcoin
 * Project15: forge a signature that you are Satoshi
+### Eth
+* Project18: research report on MPT
