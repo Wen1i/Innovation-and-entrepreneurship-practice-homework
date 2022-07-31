@@ -2,6 +2,7 @@
 
 ## 实验内容
 
+![image](https://user-images.githubusercontent.com/104118101/182007851-9145ad44-6b3d-491d-97df-dd913d85d6ff.png)
 
 设左边为client端，右边为server端<br>
 client端进行补步骤为:
@@ -19,4 +20,4 @@ server端进行的步骤为:
 先运行文件server.py, 再运行文件client.py,输入消息即可。
 
 ## 运行结果
-![img_1.png](img_1.png)
+![image](https://user-images.githubusercontent.com/104118101/182007841-2b6101ec-7fde-4238-b006-99cc52810d66.png)
