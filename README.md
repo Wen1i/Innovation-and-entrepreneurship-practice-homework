@@ -8,9 +8,9 @@
 * Project5: do your best to optimize SM3 implementation (software)<br>
 
 ### SM4(额外补充）
-* Project6：implement SM4<br>
-* Project7：optimize SM4 with SIMD<br>
-* Project8：SM4-implemented on Wireless self powered equipmen(在学院提供的无线自供能设备上完成部署sm4算法，作为全国大学生信息安全竞赛的一部分，正在参赛)<br>
+* Project6: implement SM4<br>
+* Project7: optimize SM4 with SIMD<br>
+* Project8: SM4-implemented on Wireless self powered equipmen(在学院提供的无线自供能设备上完成部署sm4算法，作为全国大学生信息安全竞赛的一部分，正在参赛)<br>
 ### SM2
 * Project9: impl sm2 with RFC6979<br>
 * Project10: impl PGP scheme with sm2<br>
@@ -20,4 +20,4 @@
 * Project14: Google Password Checkup
 * Project15: forge a signature that you are Satoshi
 * Project16: implement sm2 2P sign with real network communication
-* Project17：implement sm2 2P decrypt with real network communication
+* Project17: implement sm2 2P decrypt with real network communication
