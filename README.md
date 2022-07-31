@@ -5,8 +5,7 @@
 * 年级：2020级(大二）
 * 学号：202000460010
 * 本仓库为创新创业实践课程作业整合版，具体的上传更新时间可以见其他仓库。（更新时习惯在本地编译器中修改，再全部ctrl+V覆盖）
-* 其他仓库可回退至https://github.com/Wen1i查看
-
+* 其他仓库可回退至https://github.com/Wen1i 
 ## 已实现
 ### SM3
 * Project1: implement the naïve birthday attack of reduced SM3<br>
