@@ -1,0 +1,22 @@
+# Project16 SM2 two-party decrypt
+
+## 实验内容
+
+
+设左边为client端，右边为server端<br>
+client端进行补步骤为:
+* 建立连接
+* Gen_Key()
+* Gen_Q1_e(Z, M)
+* Sign(d1, k1, r, s2, s3)
+
+server端进行的步骤为:
+* 建立连接
+* Gen_Key(P1)
+* Gen_r_s2_s3(d2, Q1, e)
+
+## 运行指导
+先运行文件server.py, 再运行文件client.py,输入消息即可。
+
+## 运行结果
+![img_1.png](img_1.png)
